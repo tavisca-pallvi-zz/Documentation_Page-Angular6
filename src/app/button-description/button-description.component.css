@@ -1,0 +1,12 @@
+p {
+  border: 1px solid black;
+  width: 80%; 
+  margin: 0 auto;
+  height: 10%;
+}
+.button-types{
+  display: flex;
+}
+a{
+  text-decoration: none;
+}

@@ -1,0 +1,19 @@
+<p>
+  button-description works!
+</p>
+<div class=" button-types">
+
+  <div>
+    <input type="button" (click)="getPrimary()">Primary
+  </div>
+  <div>
+    <input type="button" (click)="getPartial()">Partial
+  </div>
+  <div>
+    <input type="button"(click)="getNotAvailable()">Not Availaible
+  </div>
+ 
+  <app-buttontype [bdescription]="btype">
+
+  </app-buttontype>
+</div>
